@@ -1,0 +1,32 @@
+.detailsList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  height: 55vh;
+  overflow-y: scroll;
+}
+
+.detailsList li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  width: inherit;
+  height: 4rem;
+  background-color: #fff;
+  font-size: 17px;
+}
+
+.detailsList li h5 {
+  font-size: 17px;
+  font-weight: 900;
+}
+
+.detailsList li:nth-child(odd) {
+  background-color: rgba(255, 255,255, 0.8);
+  color: #000;
+}
+
+.detailsList li:nth-child(even) {
+  background-color: rgba(255, 255, 255, 0.2);
+}
