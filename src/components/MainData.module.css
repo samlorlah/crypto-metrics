@@ -13,12 +13,17 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 5px;
+  width: 100%;
 }
 
 .dataContainer ul li {
   height: 150px;
   width: 100%;
   background-color: rgba(255, 255, 255, 0.3);
+}
+
+.dataContainer ul li a {
+  color: #fff
 }
 
 .dataContainer ul li .dataCategory {
@@ -31,7 +36,7 @@
 }
 
 .symbol {
-  font-size: 2rem;
+  font-size: 1.2rem;
   padding-left: 10px;
 }
 

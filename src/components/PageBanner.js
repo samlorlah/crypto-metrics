@@ -4,7 +4,7 @@ import { IconContext } from 'react-icons';
 import { BsCurrencyDollar } from 'react-icons/bs';
 import styles from './PageBanner.module.css';
 
-const PageBanner = ({ title, counter, description }) => (
+const PageBanner = ({ title, subHeader, description }) => (
   <>
     <div className={styles.pageBannerContainer}>
       <div>
@@ -15,9 +15,7 @@ const PageBanner = ({ title, counter, description }) => (
       <div className={styles.bannerTitle}>
         {title}
         <p>
-          {counter}
-          {' '}
-          Coins
+          {subHeader}
         </p>
       </div>
     </div>
@@ -27,7 +25,7 @@ const PageBanner = ({ title, counter, description }) => (
 
 PageBanner.propTypes = {
   title: PropTypes.string.isRequired,
-  counter: PropTypes.number.isRequired,
+  subHeader: PropTypes.string.isRequired,
   description: PropTypes.string.isRequired,
 };
 
