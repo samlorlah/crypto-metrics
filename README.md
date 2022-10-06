@@ -30,6 +30,9 @@ once you have cloned the repo
 - GitHub: [@samlorlah](https://github.com/samlorlah)
 - LinkedIn: [Oluwamuyiwa Fawole](https://www.linkedin.com/in/muyiwa-fawole/)
 
+## Design
+This project was designed by [Nelson Sakwa](https://www.behance.net/sakwadesignstudio) on Behance.
+
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
