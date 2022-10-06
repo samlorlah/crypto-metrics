@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test Compenent that renders single list of coin Return a single card of of coin 1`] = `
+<div
+  className="dataContainer"
+>
+  <ul />
+</div>
+`;

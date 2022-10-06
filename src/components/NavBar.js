@@ -7,7 +7,6 @@ import styles from './NavBar.module.css';
 const NavBar = () => {
   const location = useLocation();
   const { pathname } = location;
-  console.log(pathname === '/');
   const {
     nav, backSection, navTitle, navRightIcon,
   } = styles;

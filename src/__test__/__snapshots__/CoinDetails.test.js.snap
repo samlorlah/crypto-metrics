@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test Compenent that renders all the lists of coins get the list of coins from store and display 1`] = `
+<ul
+  className="detailsList"
+>
+  <li>
+    <h5>
+      Name
+    </h5>
+    <p />
+  </li>
+  <li>
+    <h5>
+      Symbol
+    </h5>
+    <p />
+  </li>
+  <li>
+    <h5>
+      Price
+    </h5>
+    <p>
+      ~ $
+      NaN
+    </p>
+  </li>
+  <li>
+    <h5>
+      % Change (24 hrs)
+    </h5>
+    <p />
+  </li>
+  <li>
+    <h5>
+      Supply
+    </h5>
+    <p />
+  </li>
+  <li>
+    <h5>
+      VWAP (24 hrs)
+    </h5>
+    <p>
+      ~ $
+      NaN
+    </p>
+  </li>
+</ul>
+`;
