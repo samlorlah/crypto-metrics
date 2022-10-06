@@ -1,0 +1,50 @@
+.dataContainer {
+  list-style: none;
+  padding: 20px;
+  margin: 0;
+}
+
+.dataContainer ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  height: 55vh;
+  overflow-y: scroll;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 5px;
+  width: 100%;
+}
+
+.dataContainer ul li {
+  height: 150px;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.dataContainer ul li a {
+  color: #fff;
+}
+
+.dataContainer ul li .dataCategory {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  align-content: center;
+  gap: 10px;
+  margin-top: 2rem;
+  clear: both;
+}
+
+.symbol {
+  font-size: 1.2rem;
+  padding-left: 10px;
+}
+
+.nameAndPrice {
+  text-align: right;
+  padding: 10px;
+}
+
+.nameAndPrice p {
+  font-size: 12px;
+}

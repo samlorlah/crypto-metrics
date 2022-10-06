@@ -1,0 +1,21 @@
+.nav {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 30px 20px;
+}
+
+.backSection {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.navTitle {
+  text-align: center;
+}
+
+.navRightIcon {
+  display: flex;
+  gap: 15px;
+  justify-content: right;
+}

@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test Compenent that renders all the lists of coins get the list of coins from store and display 1`] = `
+<div
+  className="dataContainer"
+>
+  <ul />
+</div>
+`;
