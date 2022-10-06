@@ -1,4 +1,4 @@
-# Space Traveler
+# Cryptocurrency Metrics Application.
 
 This applications is for real-time pricing and market activity for cryptocurrencies. The application fetches real life data from blockchain API.
 
@@ -10,7 +10,7 @@ This applications is for real-time pricing and market activity for cryptocurrenc
 
 ### Live Demo
 
-View the live demo [here]([url](https://crypto-metrics.vercel.app/))
+View the live demo [here](https://crypto-metrics.vercel.app/)
 
 ##### For validation detection using Webhint Run
 
